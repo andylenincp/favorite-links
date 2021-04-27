@@ -14,6 +14,7 @@ app.use(morgan('dev'));
 // Global variables
 
 // Routes
+app.use(require('./routes/index'));
 
 // Public
 
